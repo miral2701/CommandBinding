@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="arrow-up.png" />
+    <None Remove="Resources\arrow-down.png" />
+    <None Remove="Resources\arrow-up.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="arrow-up.png" />
+    <Resource Include="Resources\arrow-down.png" />
+    <Resource Include="Resources\arrow-up.png" />
+  </ItemGroup>
+
+</Project>
