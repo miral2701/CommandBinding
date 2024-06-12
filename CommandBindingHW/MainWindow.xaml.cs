@@ -46,6 +46,7 @@ namespace CommandBindingHW
             }
         }
 
+
         private void MenuItem_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("При нажатии на стрелку вверх счетчик увеличивается\nПри нажатии на стрелку внис счетчик уменьшается","",MessageBoxButton.OK,MessageBoxImage.Information);
